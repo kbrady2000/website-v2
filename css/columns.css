@@ -1,0 +1,204 @@
+*{
+  box-sizing: border box;
+}
+
+body {
+font-family: sans-serif;
+background: url("../media/camp-china-1.jpg")
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: Red;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: White;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #333300;
+}
+
+
+
+.menu:hover, .menu:active{
+  background-color:Yellow;
+}
+
+.column1, .column2, .column3 {
+  float: center;
+  padding: 20px;
+}
+
+.column1{
+  background-color:Red;
+  width: 30%;
+  font-style: bold;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.fa {
+  padding: 20px;
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+
+.active, .dot:hover {
+ background-color: #717171;
+}
+
+ li {
+   float: left;
+ }
+
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+ }
+
+ li a {
+   display: block;
+ }
+
+ .column2{
+   background-color:red;
+   width: 30%;
+ }
+
+
+
+.column3{
+  background-color: none;
+  width: 100%;
+  font-style: bold;
+}
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: #f1f1f1;
+}
+
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even){background-color: #f2f2f2}
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.SummerCamp{
+padding: 25px;
+background-color: red;
+}
